@@ -1,4 +1,4 @@
-package org.example.demomvcapplication;
+package org.example.demomvcapplication.controller;
 
 import org.example.demomvcapplication.domain.Message;
 import org.example.demomvcapplication.repository.MessageRepository;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
     @Autowired
     MessageRepository messageRepository;
 
